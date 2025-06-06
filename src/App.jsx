@@ -8,7 +8,7 @@ function App() {
   const [count, setCount] = useState(0);
   const {user,isLoaded,isSignedIn} = useUser();
 
-  if(!isSignedIn)
+  if(!isSignedIn && isLoaded)  // Check if user is not signed in and Clerk has finished loading
   {
     return <Navigate to={'/auth/sign-in'}/>
   }

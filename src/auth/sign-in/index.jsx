@@ -3,7 +3,7 @@ import React from 'react'
 
 function signInPage() {
   return (
-    <div className='flex items-center justify-center my-10'>
+    <div className='flex items-center justify-center my-20'>
       <SignIn/>
     </div>
   )
