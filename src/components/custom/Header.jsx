@@ -11,7 +11,7 @@ const Header = () => {
 
 {
   isSignedIn?
-  <div className='flex gap-2 items-center'>
+  <div className='flex gap-3 items-center'>
     <Link to={'/dashboard'}>
     <Button variant="outline">Dashboard</Button>
     </Link>
